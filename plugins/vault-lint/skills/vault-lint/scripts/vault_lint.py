@@ -33,6 +33,13 @@ import argparse
 import json
 import os
 import re
+import sys
+
+# Windows consoles default stdout to the active codepage (e.g. cp1252), not UTF-8.
+# Finding messages can embed non-ASCII characters from note content (em dashes,
+# smart quotes, etc.), so force UTF-8 to avoid UnicodeEncodeError / mangled output.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 # Folders that hold config or version-control data, never notes.
 IGNORED_DIRS = {".obsidian", ".git", ".trash", ".smart-env", "node_modules"}
