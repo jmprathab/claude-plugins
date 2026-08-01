@@ -4,8 +4,98 @@
     "name": "Prathab M"
   },
   "metadata": {
-    "description": "A personal collection of Claude Code skill plugins.",
+    "description": "A personal collection of Claude Code skill plugins for API testing, JSON processing, and Obsidian note management.",
     "version": "1.0.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "bruno",
+      "source": "./plugins/bruno",
+      "description": "Run API tests using Bruno CLI with environment management, test assertions, and report generation for automated API testing workflows.",
+      "category": "api-testing",
+      "keywords": [
+        "api-testing",
+        "bruno",
+        "cli",
+        "automation",
+        "http",
+        "postman",
+        "rest-api",
+        "test-runner"
+      ]
+    },
+    {
+      "name": "jq",
+      "source": "./plugins/jq",
+      "description": "Extract and transform specific fields from JSON files and API responses using jq, without loading entire files into context.",
+      "category": "utilities",
+      "keywords": [
+        "jq",
+        "json",
+        "cli",
+        "parsing",
+        "data-extraction",
+        "utilities"
+      ]
+    },
+    {
+      "name": "obsidian-flashcard",
+      "source": "./plugins/obsidian-flashcard",
+      "description": "Generate spaced-repetition flashcards in the Obsidian Spaced Repetition plugin format from notes and learning material.",
+      "category": "productivity",
+      "keywords": [
+        "obsidian",
+        "flashcards",
+        "spaced-repetition",
+        "study",
+        "learning",
+        "note-taking",
+        "productivity"
+      ]
+    },
+    {
+      "name": "obsidian-format",
+      "source": "./plugins/obsidian-format",
+      "description": "Reformat raw content into clean, Obsidian-compatible Markdown—fixing structure, headings, lists, tables, and frontmatter—without changing the wording.",
+      "category": "productivity",
+      "keywords": [
+        "obsidian",
+        "markdown",
+        "formatting",
+        "notes",
+        "frontmatter",
+        "productivity",
+        "note-taking"
+      ]
+    },
+    {
+      "name": "transcript-to-obsidian",
+      "source": "./plugins/transcript-to-obsidian",
+      "description": "Turn a raw or timestamped transcript (video, lecture, podcast, meeting) into a concise, vault-native Obsidian note that matches the target vault's conventions.",
+      "category": "productivity",
+      "keywords": [
+        "obsidian",
+        "transcript",
+        "notes",
+        "summarization",
+        "note-taking",
+        "productivity"
+      ]
+    },
+    {
+      "name": "vault-lint",
+      "source": "./plugins/vault-lint",
+      "description": "Health check for an Obsidian vault—scans notes for broken wikilinks, unclosed code fences, heading-level skips, malformed callouts, unknown tags, orphan notes, and house-rule conventions.",
+      "category": "productivity",
+      "keywords": [
+        "obsidian",
+        "vault",
+        "linting",
+        "health-check",
+        "wikilinks",
+        "notes",
+        "productivity"
+      ]
+    }
+  ]
 }

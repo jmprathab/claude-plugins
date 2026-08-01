@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-format",
+  "displayName": "Obsidian Formatter",
+  "version": "1.0.0",
+  "description": "Reformat raw content into clean, Obsidian-compatible Markdown—fixing structure, headings, lists, tables, and frontmatter—without changing the wording.",
+  "author": {
+    "name": "Prathab M"
+  },
+  "keywords": [
+    "obsidian",
+    "markdown",
+    "formatting",
+    "notes",
+    "frontmatter",
+    "productivity",
+    "note-taking"
+  ]
+}

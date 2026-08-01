@@ -1,0 +1,17 @@
+{
+  "name": "transcript-to-obsidian",
+  "displayName": "Transcript to Obsidian",
+  "version": "1.0.0",
+  "description": "Turn a raw or timestamped transcript (video, lecture, podcast, meeting) into a concise, vault-native Obsidian note that matches the target vault's conventions.",
+  "author": {
+    "name": "Prathab M"
+  },
+  "keywords": [
+    "obsidian",
+    "transcript",
+    "notes",
+    "summarization",
+    "note-taking",
+    "productivity"
+  ]
+}

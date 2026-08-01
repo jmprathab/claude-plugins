@@ -1,0 +1,19 @@
+{
+  "name": "bruno",
+  "displayName": "Bruno API Testing",
+  "version": "1.0.0",
+  "description": "Run API tests using Bruno CLI with environment management, test assertions, and report generation for automated API testing workflows.",
+  "author": {
+    "name": "Prathab M"
+  },
+  "keywords": [
+    "api-testing",
+    "bruno",
+    "cli",
+    "automation",
+    "http",
+    "postman",
+    "rest-api",
+    "test-runner"
+  ]
+}

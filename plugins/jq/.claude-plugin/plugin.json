@@ -1,0 +1,17 @@
+{
+  "name": "jq",
+  "displayName": "jq JSON Processor",
+  "version": "1.0.0",
+  "description": "Extract and transform specific fields from JSON files and API responses using jq, without loading entire files into context.",
+  "author": {
+    "name": "Prathab M"
+  },
+  "keywords": [
+    "jq",
+    "json",
+    "cli",
+    "parsing",
+    "data-extraction",
+    "utilities"
+  ]
+}

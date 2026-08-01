@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-flashcard",
+  "displayName": "Obsidian Flashcard Generator",
+  "version": "1.0.0",
+  "description": "Generate spaced-repetition flashcards in the Obsidian Spaced Repetition plugin format from notes and learning material.",
+  "author": {
+    "name": "Prathab M"
+  },
+  "keywords": [
+    "obsidian",
+    "flashcards",
+    "spaced-repetition",
+    "study",
+    "learning",
+    "note-taking",
+    "productivity"
+  ]
+}

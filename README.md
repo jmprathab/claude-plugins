@@ -18,7 +18,14 @@ Then browse and install:
 
 ## Plugins
 
-_No plugins yet._
+| Plugin | Description |
+| --- | --- |
+| **bruno** | Run API tests using Bruno CLI with environment management, test assertions, and report generation. |
+| **jq** | Extract and transform specific fields from JSON files and API responses using jq. |
+| **obsidian-flashcard** | Generate spaced-repetition flashcards in Obsidian Spaced Repetition plugin format from notes. |
+| **obsidian-format** | Reformat raw content into clean, Obsidian-compatible Markdown without changing the wording. |
+| **transcript-to-obsidian** | Turn a raw or timestamped transcript into a concise, vault-native Obsidian note. |
+| **vault-lint** | Health check for an Obsidian vault—broken links, malformed callouts, orphan notes, and house-rule conventions. |
 
 ## Updating
 
