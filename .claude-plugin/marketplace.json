@@ -1,0 +1,11 @@
+{
+  "name": "jmprathab-claude-plugins",
+  "owner": {
+    "name": "Prathab M"
+  },
+  "metadata": {
+    "description": "A personal collection of Claude Code skill plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": []
+}
