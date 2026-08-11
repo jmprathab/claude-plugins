@@ -1,5 +1,5 @@
 ---
-name: vault-lint
+name: obsidian-vault-lint
 description: >-
   Health check for an Obsidian vault. Use when the user wants to "lint the vault",
   "check my notes for issues", "find broken links", "find dead wikilinks", "run a

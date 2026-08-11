@@ -1,7 +1,7 @@
 {
-  "name": "vault-lint",
+  "name": "obsidian-vault-lint",
   "displayName": "Vault Lint",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Health check for an Obsidian vault—scans notes for broken wikilinks, unclosed code fences, heading-level skips, malformed callouts, unknown tags, orphan notes, and house-rule conventions.",
   "author": {
     "name": "Prathab M"

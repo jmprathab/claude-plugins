@@ -69,8 +69,8 @@
       ]
     },
     {
-      "name": "transcript-to-obsidian",
-      "source": "./plugins/transcript-to-obsidian",
+      "name": "obsidian-note-from-transcript",
+      "source": "./plugins/obsidian-note-from-transcript",
       "description": "Turn a raw or timestamped transcript (video, lecture, podcast, meeting) into a concise, vault-native Obsidian note that matches the target vault's conventions.",
       "category": "productivity",
       "keywords": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "name": "vault-lint",
-      "source": "./plugins/vault-lint",
+      "name": "obsidian-vault-lint",
+      "source": "./plugins/obsidian-vault-lint",
       "description": "Health check for an Obsidian vault—scans notes for broken wikilinks, unclosed code fences, heading-level skips, malformed callouts, unknown tags, orphan notes, and house-rule conventions.",
       "category": "productivity",
       "keywords": [
