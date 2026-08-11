@@ -24,8 +24,8 @@ Then browse and install:
 | **jq** | Extract and transform specific fields from JSON files and API responses using jq. |
 | **obsidian-flashcard** | Generate spaced-repetition flashcards in Obsidian Spaced Repetition plugin format from notes. |
 | **obsidian-format** | Reformat raw content into clean, Obsidian-compatible Markdown without changing the wording. |
-| **transcript-to-obsidian** | Turn a raw or timestamped transcript into a concise, vault-native Obsidian note. |
-| **vault-lint** | Health check for an Obsidian vault—broken links, malformed callouts, orphan notes, and house-rule conventions. |
+| **obsidian-note-from-transcript** | Turn a raw or timestamped transcript into a concise, vault-native Obsidian note. |
+| **obsidian-vault-lint** | Health check for an Obsidian vault—broken links, malformed callouts, orphan notes, and house-rule conventions. |
 
 ## Updating
 

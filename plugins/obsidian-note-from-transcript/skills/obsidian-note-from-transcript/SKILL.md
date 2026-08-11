@@ -1,5 +1,5 @@
 ---
-name: transcript-to-obsidian
+name: obsidian-note-from-transcript
 description: >-
   Use when the user pastes a transcript, points at a file containing a raw or timestamped
   transcript, or asks to "turn this transcript into notes", "make Obsidian notes from this
@@ -27,7 +27,7 @@ restating:
 
 - **obsidian-markdown** — the syntax reference for callouts, wikilinks, embeds, math, and tags.
 - **obsidian-cli** — read, search, list tags, and write notes from the command line.
-- **vault-lint** — verify the finished note against the vault's conventions.
+- **obsidian-vault-lint** — verify the finished note against the vault's conventions.
 
 ## Input
 
@@ -66,7 +66,7 @@ learn from? Fall back to the Output Structure below. Pay attention to:
   no YAML frontmatter). Follow whatever the existing notes do.
 - **Headings, lists, callouts** — mirror the depth and style already in use.
 
-If a `vault-lint` skill is available, treat its rules as the source of truth and run it at the end.
+If an `obsidian-vault-lint` skill is available, treat its rules as the source of truth and run it at the end.
 If it isn't, verify manually against the 3–5 sample notes (tag format, heading depth, callout style)
 before finishing.
 
@@ -85,7 +85,7 @@ before finishing.
    note, not a prompt per edit. Because this destroys the original transcript, do not skip the
    confirmation; if the user declines, save to a new file or revise instead. If the filename is a
    poor title (e.g. `transcript.md` or a raw video ID), suggest a better one and offer to rename.
-6. **Verify and finish.** Run the vault-lint skill if available (else re-check against the sample
+6. **Verify and finish.** Run the obsidian-vault-lint skill if available (else re-check against the sample
    notes), fix what you can, and surface anything you can't. Done = file written, conventions pass,
    and you've told the user the final note path.
 
